@@ -1,6 +1,21 @@
+
 Bejelentkezés:
 git config --global user.name "Simon Balázs" 
 git config --global user.email "balazs.simon@intren.hu"
+
+git config --global user.name “[név]” = Ez a parancs beállítja a felhasználónevet, amely segít annak áttekintésében, hogy ki végezte a változtatásokat.
+git config --global user.email “[email]” = Ez a parancs beállít egy e-mail címet, ez az inturn segít annak nyomon követésében, hogy ki végezte a véglegesítési vagy összevonási tevékenységet.
+git config --global color.ui auto = Ez a parancs automatikus parancssori színezési effektust állít be az egyszerű áttekintés érdekében.
+
+
+git init = Ez a parancs beindítja a meglévő könyvtárat git-tárolóként
+git init [repository név] = Ez a parancs egy új git-tár létrehozására vagy kezdeményezésére szolgál.
+
+
+git add [file] = Ez a parancs hozzáad egy fájlt a munkafából a Staging területhez/aktuális ághoz.
+git rm [file] = törli az összes fájlt
+git status = összes fájlt megmutattja
+
 
 Változások listázása:
 git status
