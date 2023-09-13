@@ -1,1 +1,38 @@
+Bejelentkezés:
+git config --global user.name "Simon Balázs" 
+git config --global user.email "balazs.simon@intren.hu"
 
+Változások listázása:
+git status
+
+Új git repository létrehozása:
+git init
+
+Nem kommitolt módosítás eldobása:
+git reset --hard
+
+Változás törlése a staging area-ból (a változás nem törlődik):
+git reset
+
+File egy részletének kommitolása:
+git add -p
+
+Távoli repository-k listázása:
+git remote
+
+Távoli repository adatainak megtekintése:
+git remote show <name>
+
+Távoli repository lemásolása local gépre. Automatikusan hozzádódik a távoli repository origin néven:
+git clone <url>
+
+Távoli repository változásainak letöltése és mergelése:
+git pull <remotename> <branchname>
+
+Lokális változások feltöltése távoli repository-ba:
+git push <remotename> <branchname>
+
+Változások mentése:
+git commit
+git commit -m 'commit message'
+git commit -a # staging area kihagyása
